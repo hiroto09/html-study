@@ -1,22 +1,13 @@
 .main {
-  padding: 1rem;
-  margin: 0;
-  min-height: calc(100vh - 160px);
+  box-sizing: border-box;
+  min-height: 100vh;
+  /* header と footer の高さ分だけ余白を確保 */
+  padding-top: 64px;   /* header の高さに合わせて調整 */
+  padding-bottom: 56px; /* footer の高さに合わせて調整 */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.heading {
-  font-size: 2rem;
-  color: #333333;
-}
-
-.paragraph {
-  font-size: 1rem;
-  color: #666666;
-}
-
-.description{
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    color: #444444;
-    line-height: 1.5;
+.description {
+  margin-top: 1rem;
 }
