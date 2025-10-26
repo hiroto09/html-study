@@ -1,0 +1,22 @@
+.main {
+  padding: 1rem;
+  margin: 0;
+  min-height: calc(100vh - 160px);
+}
+
+.heading {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: #666666;
+}
+
+.description{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #444444;
+    line-height: 1.5;
+}

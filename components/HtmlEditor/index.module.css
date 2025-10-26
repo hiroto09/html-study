@@ -1,0 +1,32 @@
+/* .editorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+} */
+
+.label {
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+.content {
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    background-color: #f8fcff;
+    }
+
+.buttonContainer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.previewButton {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
